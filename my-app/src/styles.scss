@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+// Core variables and mixins
+@import "./assets/scss/variables.scss";
+@import "./assets/scss/mixins.scss";
+// Global CSS
+@import "./assets/scss/global.scss";
+// Components
+@import "./assets/scss/navbar.scss";
+@import "./assets/scss/masthead.scss";
+@import "./assets/scss/services.scss";
+@import "./assets/scss/portfolio.scss";
+@import "./assets/scss/timeline.scss";
+@import "./assets/scss/team.scss";
+@import "./assets/scss/contact.scss";
+@import "./assets/scss/footer.scss";
