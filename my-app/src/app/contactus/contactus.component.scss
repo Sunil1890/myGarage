@@ -1,0 +1,28 @@
+.jumbotron {
+	background-image: url("/assets/img/bikes/bike2.jpg");
+	background-size: cover;
+}
+.mavenfont { font-family: 'Black Ops One', cursive; }
+.card { background-color: #151515; }
+.lmargin20{ margin-left: 12px; }
+.center { text-align: center; }
+.grey-text{ color: #cacaca; }
+/*.center { top }*/
+@media (min-width: 576px){
+	.jumbotron {
+	    padding: 9rem 2rem;
+	}
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
