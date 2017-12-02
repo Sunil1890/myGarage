@@ -8,3 +8,55 @@
 .lato_font {font-family: 'Lato', sans-serif;}
 .bluefont { color: #0275d8; }
 .whiteclr { color: white; }
+.jumbotron {
+	background-image: url("/assets/img/bikes/duke.jpg");
+}
+
+@media only screen and (max-width: 500px) {
+   .jumbotron {
+	/*background-image: url("/assets/img/bikes/duke.jpg");*/
+	background-size: cover;
+	height:250px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+	section { padding: 10px 0px; }
+	h1 {font-size: 1.5rem;}
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { 
+	.jumbotron {
+	background-size: cover;
+	height:400px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+	section { padding: 10px 0px; }
+	h1 {font-size: 1.5rem;}
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+.jumbotron {
+	background-size: cover;
+	height:500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}	
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
+.jumbotron {
+	background-size: cover;
+	height:550px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+}
+@media (min-width: 1200px) {
+.jumbotron {
+	background-size: cover;
+	height:600px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+	}
+}
